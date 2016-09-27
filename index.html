@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
-    <title>In class Exercise Numero Uno</title>
+    <title>In class Exercise Numero Uno Kai version</title>
     <link rel="stylesheet" href="./css/icOne.css">
+	<link rel="stylesheet" href="styles.css">
+	<!-- this is the in doc style decleration -->
+	<style>
+	  #headder2{
+	  font-size: 82px;
+	  }
+	  .purpleDuck{
+	  color: purple;
+	  }
+	  a.highlight:hover {
+      color: green;
+	  } 
+	  div.fixed 
+	  {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+      border: 3px solid #73AD21;
+	  }
+	  div.secretClass{
+	  display: none;
+	  }
+	  </style>
   </head>
   <body>
-
+  <!-- this is the inline style-->
+  <div style = "color : yellow" > 
+	<h1> 
+	  This is a headder for a block level element, containing the nav element
+	  <nav>
+	  <a href="">link1</a> |
+	  <a href="">link2</a> |
+	  <a href="">link3</a> 
+	  </nav>
+	</h1>
+	<h2 id = "headder2">
+	  This is the second headder block level element ayyy lkajslkfjlksadjf
+	</h2>
+  </div>
+  <div class = "purpleDuck">
+	<p> This is a block level element. </br>  </p>
+	<img src="./img/image1.jpg" align="left" alt="Image of a man holding a free shrugs sign and shrugging" style="width:304px;height:500px;">
+    <img src="./img/image3.png" align="center" alt="image of if you dont think that's the tightest shit then get outta my face" style="width:500px;height:500px;">
+	
+	<p> 
+	  This is the second paragraph block level element
+	</p>
+  </div>
+  <div class = "fixed">
+	<a href="http://www.google.com">here is a link to google, fixed in a location on the bottom right along with an image that is also a link</a>
+	 <a href="homepage.html">
+		<img src="./img/image2.jpg" alt="JPG image linking to homepage.html" style="width:420px;height:420px;">
+	</a>
+  </div>
+	<a class = "highlight" 
+	<button type="button" onclick="alert('this is an alert message')">Hey i'm a button click me</button>
+	</a>
+  <div class = "secretClass">
+	<p> this should not be shown, the password is 1111</p>
+  </div>
+   <footer>
+    <p>COPYRIGHT INFO @ I STOLE EVERYTHING HA HA</p>
+   </footer> 
+  
   </body>
 </html>
